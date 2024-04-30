@@ -37,11 +37,11 @@ public class Main {
 				switch (opcion){
 					case 1:
 						System.out.println("El valor "+valor+" [USD] corresponde "+
-								"al valor final de =>> "+consultarMonedas.consultarMonedas()[0]*valor+" [ARS]");
+								"al valor final de =>> "+valor*consultarMonedas.consultarMonedas()[0]+" [ARS]");
 						break;
 					case 2:
 						System.out.println("El valor "+valor+" [ARS] corresponde "+
-								"al valor final de =>> "+consultarMonedas.consultarMonedas()[0]/valor+" [USD]");
+								"al valor final de =>> "+valor/consultarMonedas.consultarMonedas()[0]+" [USD]");
 						break;
 					case 3:
 						System.out.println("El valor "+valor+" [USD] corresponde "+
